@@ -1,0 +1,9 @@
+{
+  "scanned": "2026-10-25",
+  "framework": "Vite 8 + React 19 + TypeScript (vanilla CSS, no Tailwind/UI kit)",
+  "font_stack": "none user-authored (stock system-ui template); Hallmark introduced Geist display/body + Fraunces outlier",
+  "palette": "none user-authored (stock Vite template hex); Hallmark introduced Coral OKLCH token set",
+  "motion": "none detected (no framer/motion/gsap); stance motion-cut-light",
+  "spacing": "none; Hallmark 4pt named scale introduced",
+  "notes": "Fresh scaffold (files created 2026-10-25). src/App.tsx and src/index.css were stock Vite demo content; App.css and src/assets left in place, unreferenced."
+}

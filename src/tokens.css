@@ -1,0 +1,72 @@
+/* Hallmark · genre: modern-minimal · macrostructure: Split Studio · theme: Coral · enrichment: none (typography only) · nav: N9 · footer: Ft2
+ * pre-emit critique: P4 H4 E4 S4 R5 V5 (first run — V represents brief-fit; no prior fingerprint)
+ * tone: soft · audience: patient (medical) · use: sign-up · run: 2026-10-25 · first Hallmark run in project
+ */
+
+:root {
+  /* ---- Type ---- */
+  --font-display: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-outlier: "Fraunces", ui-serif, Georgia, serif; /* wordmark + example-question only (2 slots) */
+
+  --text-xs: 0.64rem;
+  --text-sm: 0.8rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.9531rem;
+  --text-2xl: 2.4414rem;
+  --text-3xl: 3.0518rem;
+  --text-display: clamp(2.5rem, 3.2vw + 1.5rem, 4.4rem);
+
+  /* ---- Colour (coral anchor, hue ~45) ---- */
+  --color-paper: oklch(97.5% 0.009 60);
+  --color-paper-2: oklch(94.8% 0.013 60);
+  --color-paper-3: oklch(91.8% 0.016 60);
+  --color-rule: oklch(88.5% 0.012 60);
+  --color-rule-2: oklch(83.5% 0.015 60);
+  --color-neutral: oklch(44% 0.014 52);
+  --color-ink-2: oklch(37% 0.018 48);
+  --color-ink: oklch(21% 0.016 45);
+  --color-accent: oklch(62% 0.16 35);
+  --color-accent-ink: oklch(97% 0.02 50);
+  --color-focus: oklch(55% 0.17 35);
+  --color-error: oklch(52% 0.19 25);
+  --color-success: oklch(55% 0.13 155);
+
+  /* ---- Space (4 pt) ---- */
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  /* ---- Depth ---- */
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  /* ---- Shape & chrome ---- */
+  --radius-card: 10px;
+  --radius-input: 8px;
+  --radius-chip: 999px;
+  --rule: 1px;
+  --page-gutter: clamp(1.25rem, 5vw, 4rem);
+  --shell-max: 72rem;
+}
